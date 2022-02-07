@@ -1,0 +1,525 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width:100%;
+    font-family: 'Bookman Old Style';
+       
+    justify-content: center;
+	align-items: center;
+    font-family: "Roboto", sans-serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	color: #fff;
+
+}
+
+#page {
+    width: 100%;
+    margin: 2px;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+nav ol {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    font-size:18px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+    position: relative;
+    bottom: 1066px;
+    margin-top: 0;
+}
+
+.menu_aktualna a {
+    background-color: #996666; 
+
+}
+
+nav ol a {
+    display:block;
+    text-decoration:none;
+    color:#FFF;
+    padding:0 5px;
+}
+
+
+nav ol > li {
+    float:left;
+    width:33.28%;
+    margin-left:0;
+    background-color:#3D0101;
+    height:2em;
+}
+
+
+nav ol > li:first-child {
+    margin-left:0;
+}
+
+
+nav ol > li:hover {
+    background-color:#996666;
+}
+
+
+      nav ol > li:hover > a {
+    color:black;
+      }
+
+
+      nav ol > li:hover > ul {
+    display:block;
+      }
+
+      nav ol > li > ul {
+     display:none;
+     list-style-type:none;
+     padding:0;
+     margin:1px;
+     
+      }
+      nav ol > li > ul > li {
+     position:relative;
+     background-color:#EEE;
+      }
+
+      nav ol > li > ul > li > a {
+      border-top:1px solid #FFF;
+      }
+
+      nav ol > li > ul > li:hover {
+      background-color:#DDD;
+      }
+
+      nav ol > li > ul > li:hover > a {
+      color:#09C;
+      }
+
+             header {
+      margin-top:10px;
+      margin-right: 20px;
+      margin-left: 0;
+
+        position: relative;
+        bottom: 460px;
+        left: -12px;
+          color:#fff;
+          padding:30px;
+          font-size: 19.5px;
+          font-family: 'Times New Roman';
+          text-align: left;
+      }
+
+header h1 {
+    font-size: 30px;
+    font-family: 'Verdana';
+}
+
+header h2 {
+    font-size: 20px;
+    font-family: 'Bookman Old Style';
+}
+
+
+
+
+
+
+
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #3D0101;
+    clear: left;
+    text-align: center;
+}
+
+div, id {
+    position: relative;
+    text-align: center;
+}
+
+
+
+.edit {
+        background-color: #8F0B0B;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+}
+
+.save {
+            background-color: #370808;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+}
+
+.add {
+                background-color: #2E1212;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+}
+
+.delete {
+            background-color: #670808; 
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+}
+      .sezon1 {
+          position: relative;
+          bottom: 550px;
+          left: 10px;
+  text-align: center;
+  line-height: 25px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #990033;
+  width: 470px;
+  margin: 60px auto;
+  margin-right:10px;
+  border-radius: .30rem;
+  color: white;
+  float: left;
+  border-bottom-color: #ff3366;
+
+}
+thead tr:first-child .sezon1 {
+  background: #3D0101;
+  color: white;
+  border: none;
+
+}
+thead tr:last-child th table.sezon1 {
+  border-bottom: 1px solid #ddd;
+  border-bottom-color: #3D0101;
+
+}
+
+tbody tr:hover table.sezon1{
+  background-color: rgba(237, 28, 64, .1);
+  cursor: default;
+
+}
+
+tbody tr:last-child td table.sezon1 {
+  border: none;
+
+
+}
+
+tbody td table.sezon1 {
+  border-bottom: 1px solid #ddd;
+  border-color: #3D0101;
+}
+
+td:last-child table.sezon1{
+  text-align: left;
+  padding-right: 3px;
+}
+
+    
+
+      table.sezon1 thead tr > th {
+          background-color: blue;
+
+      }
+th:first-child,
+td:first-child table.sezon1 {
+  padding: 0 10px 0 10px;
+  border-color: #3D0101;
+}
+      #Sezon2 {
+                    position: relative;
+          bottom: 550px;
+         
+ 
+  text-align: center;
+  line-height: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #660033;
+  width: 300px;
+  margin: 60px auto;
+  border-radius: .30rem;
+  color: white;
+}
+      
+            thead tr > th #Sezon2 {
+          background-color: #3D0101;
+
+      }
+
+                 
+
+
+
+thread tr:first-child #Sezon2 {
+  background: yellow;
+  color: white;
+  border: none;
+
+}
+th:first-child,
+td:first-child #Sezon2 {
+  padding: 0 20px 0 20px;
+}
+
+thead tr:last-child th #Sezon2{
+  border-bottom: 1px solid #ddd;
+  
+}
+
+tbody tr:hover #Sezon2{
+  background-color: rgba(237, 28, 64, .1);
+  cursor: default;
+}
+
+tbody tr:last-child td #Sezon2{
+  border: none;
+}
+
+tbody td #Sezon2{
+  border-bottom: 1px solid #ddd;
+}
+
+td:last-child #Sezon2{
+  text-align: left;
+  padding-right: 3px;
+}
+
+.main {
+    position: relative;
+    display: flex;
+	flex-flow:column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 10px 0 30px 0;
+    bottom: 400px;
+    right: 100px;
+}
+
+
+.wynik {
+    border: none;
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.sub-main{
+  width: 30%;
+  margin:22px;
+  float: left;
+}
+
+.button-one {
+  text-align: center;
+  cursor: pointer;
+  font-size:1em;
+  margin: 0 0 0 100px;
+  border-radius: 6px;
+  background-color:#d35400;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  position: relative;
+  bottom: 150px;
+  left: -100px;
+}
+
+.przycisk {
+  margin: 40px 25px;
+  position: relative;
+  bottom: 100px;
+  width: 150px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+}
+.main select {
+    position: relative;
+    bottom: 177px;
+    right: 80px;
+}
+select {
+
+ bottom: 200px;
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+}
+b.pod {
+    position: relative;
+    bottom: 177px;
+    left: -80px;
+}
+div.napisy-koniec {
+    position: relative;
+    bottom: 150px;
+}
+
+article h1 {
+    position: relative;
+    text-align: left;
+    left: 1.1%;
+    bottom: 120px;
+    color: #3D0101;
+    
+    
+}
+h2 {
+        position: relative;
+    text-align: center;
+    bottom: 270px;
+    font-size: 45px;
+    color: rgb(155,017,030);
+}
+
+h4 {
+    position: relative;
+    text-align: center;
+    bottom: 270px;
+    font-size: 25px;
+}
+article hr {
+    display: block;
+    content: "";
+    height: 30px;
+    position: relative;
+    bottom: 115px;
+    width: 100%;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #3D0101;
+    border-width: 0 0 2px 0;
+    
+}
+
+#dziedziczenie {
+       position: relative;
+    display:block;
+    text-align: left;
+    bottom: 400px;
+        font-size:0.9em;
+        margin-right: 0px;
+        margin-left: 3%;
+}
+
+#dziedzicz1 b {
+    position: relative;
+    left: -25px;
+    bottom: 25px;
+    color: black;
+}
+
+#dziedzicz1 {
+    float: left;
+    width:10%;
+    margin-right: 80px;
+}
+#dziedzicz2 {
+        float: left;
+    width: 70%;
+    margin-right: 40px;
+    
+}
+#dziedzicz2 b {
+    position: relative;
+    left: -80px;
+    bottom: 205px;
+}
+#dziedzicz3 b {
+    position: relative;
+    left: -25px;
+    bottom: 25px;
+    color: black;
+}
+
+#dziedzicz3 {
+        float: right;
+        width: 10%;
+    
+    right: 24%;
+}
+
+#rodzic {
+        position: relative;
+    display:block;
+    text-align: center;
+    bottom: 100px;
+        font-size:0.9em;
+        margin-right: 10px;
+        margin-left: 10px;
+}
+
+#dziecko1 {
+    float: left;
+    width:10%;
+}
+
+
+#dziecko2 {
+    float: left;
+    width: 28%;
+}
+
+#dziecko3 {
+    float: left;
+    left: -5%;
+    
+}
+#dziecko4 {
+    float: left;
+    left: -3.5%;
+}
+#dziecko5 {
+    float: right;
+    left: -2%;
+}
+
+#dziecko6 {
+    float: right;
+    left: -3.5%;
+}

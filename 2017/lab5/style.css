@@ -1,0 +1,275 @@
+﻿* {
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    background-color: #3A322F;
+    width:100%;
+        font-family: 'Bookman Old Style';
+}
+
+#page {
+    
+    width: 100%;
+    
+    margin: 2px;
+}
+
+#header {
+    width: 100%;
+    height: 1100px;
+
+}
+
+nav ol {
+    list-style-type:none;
+    padding:0;
+    margin:2px;
+    font-size:18px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+    margin-top: 0;
+}
+
+
+nav ol a {
+    display:block;
+    text-decoration:none;
+    color:#666600;
+    padding:0 5px;
+}
+
+
+nav ol > li {
+    float:left;
+    width:24.16%;
+    margin-left:1px;
+    background-color:	#99B9AE;
+    height:2em;
+}
+
+
+nav ol > li:first-child {
+    margin-left:0;
+}
+
+
+nav ol > li:hover {
+    background-color:	#5C7DA0;
+}
+
+
+      nav ol > li:hover > a {
+    color:black;
+      }
+
+
+      nav ol > li:hover > ul {
+    display:block;
+      }
+
+      nav ol > li > ul {
+     display:none;
+     list-style-type:none;
+     padding:0;
+     margin:1px;
+      }
+      nav ol > li > ul > li {
+     position:relative;
+     background-color:#EEE;
+      }
+
+      nav ol > li > ul > li > a {
+      border-top:1px solid #FFF;
+      }
+
+      nav ol > li > ul > li:hover {
+      background-color:#DDD;
+      }
+
+      nav ol > li > ul > li:hover > a {
+      color:#09C;
+      }
+
+
+.add {
+                background-color: #99B9AE;
+    border: none;
+    color: #666600;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    left: 468px;
+    
+}
+
+
+      #Sezon2 {
+                    position: relative;
+          bottom: 550px;
+         
+ 
+  text-align: center;
+  line-height: 40px;
+
+  width: 300px;
+  margin: 60px auto;
+  
+  color: black;
+}
+      
+            thead tr > th #Sezon2 {
+          background-color: #3D0101;
+
+      }
+
+                 
+
+
+
+thread tr:first-child #Sezon2 {
+  background: yellow;
+  color: white;
+  border: none;
+
+}
+th:first-child,
+td:first-child #Sezon2 {
+  padding: 0 20px 0 20px;
+}
+
+thead tr:last-child th #Sezon2{
+  border-bottom: 1px solid #ddd;
+  
+}
+
+tbody tr:hover #Sezon2{
+  background-color: rgba(237, 28, 64, .1);
+  cursor: default;
+}
+
+tbody tr:last-child td #Sezon2{
+  border: none;
+}
+
+tbody td #Sezon2{
+  border-bottom: 1px solid #ddd;
+}
+
+td:last-child #Sezon2{
+  text-align: left;
+  padding-right: 3px;
+}
+
+
+article h1 {
+    position: relative;
+    text-align: left;
+    left: 1.1%;
+    bottom: 120px;
+    color: #3D0101;
+    
+    
+}
+h2 {
+        position: relative;
+    text-align: center;
+    bottom: 270px;
+    font-size: 45px;
+    color: rgb(155,017,030);
+}
+
+h4 {
+    position: relative;
+    text-align: center;
+    bottom: 270px;
+    font-size: 25px;
+}
+article hr {
+    display: block;
+    content: "";
+    height: 30px;
+    position: relative;
+    bottom: 115px;
+    width: 100%;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #3D0101;
+    border-width: 0 0 2px 0;
+    
+}
+footer {
+    padding: 1em;
+    color: #666600;
+    background-color: #99B9AE;
+    clear: left;
+    text-align: center;
+
+}
+
+div, id {
+    position: relative;
+    text-align: center;
+}
+
+
+h2 {
+        position: relative;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(155,017,030);
+}
+
+#new_age {
+    position: relative;
+    height: 2em;
+    width: 35px;
+}
+
+#new_lp {
+    position: relative;
+    height: 2em;
+    width: 35px;
+}
+
+#new_name {
+        position: relative;
+    height: 1em;
+    width: 135px;
+}
+
+#new_surname {
+    position: relative;
+    height: 1em;
+    width: 135px;
+}
+#new_date {
+    position: relative;
+    height: 1.3em;
+    width: 125px;
+}
+
+#napis {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#pytania {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: aquamarine;
+}
+
+#row1 {
+    position: relative;
+    color: wheat;
+}

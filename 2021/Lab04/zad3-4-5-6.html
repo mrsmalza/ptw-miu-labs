@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>Tytunio</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<link rel="Stylesheet" type="text/css" href="style1.css" />
+    </head>
+    <body>
+	<div class="menu">
+    <div class="menuitem"><a href="zad1.html">zadanie1</a></div>
+    <div class="menuitem"><a href="zad2.html">zadanie2</a></div>
+    <div class="menuitem"><a href="zad3-4-5-6.html">zadania3-4-5-6</a></div>
+    <div class="menuitem"><a href="zad7.html">zadanie7</a></div>
+    <div class="menuitem"><a href="index.html">First page</a></div>
+
+    <div id="aftermenu"></div>
+</div>
+
+<div ng-app="myTodo" ng-controller="myCtrl">
+<ul>
+<li ng-repeat="x in myItems">
+{{x}} <span ng-click="removeItem($index)">&times;</span>
+</li>
+</ul>
+<input ng-model="addMe">
+<button ng-click="addItem()">Dodaj zadanie</button>
+<p>{{errortext}}</p>
+</div>
+
+<script>
+var app = angular.module('myTodo', []);
+app.controller('myCtrl', function($scope) {
+	$scope.myItems = ["Odbierz email", "Przeczytaj treść", "Odpowiedz"];
+	$scope.addItem = function () 
+	{
+		$scope.myItems.push($scope.addMe);
+	}
+	$scope.removeItem = function (x) {
+		$scope.myItems.splice(x, 1);
+	}
+	$scope.addItem = function () {
+		$scope.errortext = "";
+		if (!$scope.addMe) {return;}
+		if ($scope.myItems.indexOf($scope.addMe) == -1)
+			{ $scope.myItems.push($scope.addMe);
+		} else {
+			$scope.errortext = "Takie zadanie już dodałeś! Nie można dodać identycznego zadania.";
+		}
+	}
+});
+
+</script>
+
+    </body>
+</html>

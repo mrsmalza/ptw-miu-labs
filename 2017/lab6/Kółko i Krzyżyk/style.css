@@ -1,0 +1,102 @@
+body {
+	background-color:#4F4157;
+	color:#D7D76D;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrap {
+	width:950px;
+	
+	margin:2em auto 2em auto;
+}
+
+#plansza {
+	width:550px;
+	height:550px;
+	float:left;
+	border-left: none;
+}
+
+.boki {
+	width:195px;
+	float:left;
+	margin-top:20px;
+	font-size:1.5em;
+    
+}
+
+.boki img {
+	overflow:hidden;
+}
+
+table {
+	width:555px;
+	height:555px;
+	font-size:130px;
+	text-align:center;
+	border-collapse: collapse;
+    border-style: hidden;
+}
+
+table td, table th {
+    border: 5px solid #D7D76D;
+}
+
+td {
+	width:182px;
+	height:182px;
+	padding:0;
+	cursor:pointer;
+}
+
+#pocz {
+	margin:40px 0;
+}
+
+input {
+		padding:4px;
+		border:2px solid #D7D76D;
+		border-radius:5px;
+		margin-bottom:10px;
+}
+
+#przycisk_start {
+	margin-top:20px;
+	padding:4px 80px;
+	font-weight:bold;
+background-color: #D7D76D;
+}
+
+#przycisk_start:hover {
+	color:#660066;
+	background-color:#D5D6C8;
+	border-color:#D5D6C8;
+}
+
+#koniec {
+	font-size:34px;
+}
+
+#dalej {
+	width:150px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#dalej:hover {
+	color:#D7D76D;
+}
+
+#od_nowa:hover {
+	color:#D7D76D;
+}
+
+p {
+	cursor:pointer;
+}
+
+.punkty {
+	font-size:100px;
+}
+

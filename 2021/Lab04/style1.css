@@ -1,0 +1,178 @@
+ body{
+scrollbar-3dlight-color: #5E8D9C;
+scrollbar-arrow-color: #5E8D9C;
+scrollbar-base-color: #FFFFFF;
+background-color: black;
+color: #5E8D9C;
+text-align: justify;
+font-size: 10pt;
+margin: 0.3cm;
+}
+
+.maincontent{
+border: solid 1px  #C0C0C0 ;
+width: 850pt;
+height: 550pt;
+
+float: left;
+
+margin:0%;
+}
+.adword{
+width:260pt;
+float:left;
+height: 550pt;
+margin:0%;
+padding:0%;
+
+}
+.header{
+border: solid 1px black;
+
+padding-left: 40%;
+font-size: 200%;
+
+
+}
+h1{
+color: rgb(204,255,0);
+}
+h2{
+color: rgb(153,504,255);
+}
+
+.menu{
+
+width: 1200pt;
+height: 26pt;
+
+}
+.menuitem{
+margin-left: 26pt;
+float: left;
+color:  #970000;
+height: 26pt;
+width: 200pt;
+
+}
+
+a{
+color: #970000;
+border: solid 1pt #A4B9C0 ;
+background-image: url("button.gif"); 
+background-position: left top;
+margin-left: 100pt;
+font-size: 14pt;
+font-family: Verdana;
+font-weight: bold;
+text-decoration: none;
+margion: 0%;
+width: 100%;
+float: center;
+
+}
+a:hover{
+background-color: #A5D0E4 ;
+border: solid 1pt  #A5D0E4;
+}
+a:active{
+color: white;
+}
+:visited {
+    color: white;
+}
+
+.footer{
+
+height: 50pt;
+width: 1200pt;
+border: solid 1pt  #C0C0C0;
+margin-top: 80%;
+clear: both;
+}
+
+#adwordcontent{
+background-color: red;
+width: 60pt;
+height: 20pt;
+position: relative;
+animation-name: animacja;
+animation-duration: 4s;
+
+}
+
+
+@keyframes animacja{
+
+25% {background-color:yellow; left:200pt;}
+
+50% {background-color:blue; top:200pt;}
+75% {background-color:green; top:200pt;}
+
+
+}
+
+.pom{
+width: 80%;
+}
+.glowa{
+background-color: green;
+border-radius: 100%;
+width: 50pt;
+height: 50pt; 
+border: solid 1px black;
+}
+.brzuch{
+background-color: green;
+border: solid 1px black;
+width: 80pt;
+height: 100pt; 
+
+}
+.noga{
+background-color: green;
+border: solid 1px black;
+float: left;
+margin-left: 89pt;
+width: 40pt;
+height: 100pt; 
+
+}
+.noga2{
+background-color: green;
+border: solid 1px black;
+float: left;
+
+width: 40pt;
+height: 100pt; 
+
+}
+.reka{
+background-color: green;
+border: solid 1px black;
+width: 100pt;
+height: 100pt;
+float: left;
+border-radius:200px 0 200px;
+margin-left:10pt;
+
+}
+.reka2{
+background-color: green;
+border: solid 1px black;
+width: 100pt;
+height: 100pt;
+float: right;
+border-radius:0 200px 0;
+margin-right: 10pt;
+}
+
+#trujkat
+ { width: 0;
+background-color:pink;
+ height: 0;
+ border-left: 
+50px solid transparent; 
+border-right: 50px solid transparent; 
+border-bottom: 120px solid #F34A53;
+ margin: 40px auto 0; }

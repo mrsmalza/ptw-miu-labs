@@ -1,0 +1,99 @@
+body {
+	scrollbar-3dlight-color: #5E8D9C;
+	scrollbar-arrow-color:#5E8D9C;
+	scrollbar-base-color:#FFFFFF;
+	background:#000000;
+	color:#5E8D9C;
+	text-align:center;
+	font-size:10px;
+	margin:0.3cm;
+}
+
+h1 {
+	color:#CCFF00;
+}
+h2,h3,h4,h5,h6 {
+	color:#00F8FF;
+}
+#menu{
+	width:1200px;
+	height:26px;
+	border-top-style:solid;
+}
+#stoper{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.menuitem{
+	float:left;
+	color:#970000;
+	height:26px;
+	width:200px;
+	margin:20px;
+}
+.menuitem a {
+	color:#970000;
+	border-style:solid;
+	font-size:14px;
+	font-style:Verdana;
+	font-family:sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	border-color:#A4B9C0;
+	background-image: url(button.gif);
+	background-repeat:repeat;
+	background-position:left top;
+	margin:0px;
+	width:100%;
+	text-align:center;
+}
+.menuitem a:hover{
+	background-color:#A5D0E4;
+	border-color:#A5D0E4;
+}
+.aftermenu {
+	clear:both;
+}
+#maincontent{
+	float:left;
+	width:850px;
+	height:550px;
+	border-style:solid;
+	border-color:#C0C0C0;
+}
+#adword{
+	float:left;
+	height:550px;
+	weight:160px;
+}
+#adword img{
+	width:40%;
+	height:40%;
+}
+#footer{
+	clear:both;
+	height:50px;
+	width:1200px;
+	border-style:solid;
+	border-color:#c0c0c0;
+}
+.menuitem a:active{
+	color:yellow;
+	border-color:yellow;
+}
+@keyframes animacja {
+	0% {background-color:red;}
+  25%{background-color:yellow; transform: translateX(200pt);}
+  50%{background-color:blue; transform: translate(200pt,200pt)}
+  75%{background-color:green; transform: translate(0pt, 200pt)}
+  100% {background-color:red;}
+}
+#adwordcontent{
+	background-color:red;
+	animation-name: animacja;
+	animation-duration: 4s;
+}
+
+

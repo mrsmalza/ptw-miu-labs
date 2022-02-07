@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Moja pierwsza interaktywna strona WWW</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Moja pierwsza interaktywna strona WWW" />
+    <meta name="author" content="Adrianna Wójcik" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="kalkulator.js"></script>
+</head>
+
+<body>
+    <div id="page">
+        <div id="header">
+
+            <a href="index.html"><img src="elementy/logo.png" width="100%" height="50%" alt="logo"></a>
+            <br />
+
+            <nav>
+                <ol>
+                    <li><a href="index.html">Strona Główna</a></li>
+                    <li><a href="math.html">Galeria serii ZenBook</a></li>
+                    <li><a href="calc.html">Mini-Kalkulator</a></li>
+
+                </ol>
+            </nav>
+
+            <header>
+
+                <h3><b>Strona poświęcona jest ultrabookom z serii ASUS ZenBook.</b></h3>
+                <p><b>Zawiera: </b></p>
+
+                <ul typeof="aquare" style="margin: auto">
+                    <li><span style="color: #ffd700">Logo strony internetowej</span></li>
+                    <li><span style="color: #ffd700">Interaktywną galerię zdjęć serii ZenBook</span></li>
+                    <li><span style="color: #ffd700">Mini-Kalkulator z obsługą prostych operacji matematycznych</span></li>
+                </ul>
+                <br />
+                <h4><i>Podstrony są dostępne po kliknięciu odpowiedniej pozycji w MENU powyżej.</i></h4>
+
+            </header>
+        </div>
+
+        <br /><br />
+
+        <article>
+            <h2>Kalkulator z prostymi operacjami matematycznymi (dodawanie, odejmowanie, mnożenie, dzielenie) napisany w JavaScript:</h2>
+            <br /><br /><input type="text" id="a" />
+            <select id="dzialanie">
+                <option>+</option>
+                <option>-</option>
+                <option>*</option>
+                <option>/</option>
+            </select>
+            <input type="text" id="b" />
+            <input type="submit" class="dziedzicz" id="submit" value="=" onClick="licz();" />
+            <span id="wynik"></span>
+        </article>
+
+        <br /><br /><br />
+        <footer>Copyright &copy; Adrianna Wójcik</footer>
+
+    </div>
+
+</body>
+</html>

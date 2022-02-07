@@ -1,0 +1,247 @@
+﻿* {
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    background-color: #FFFFCC;
+    width:100%;
+    font-family: 'Bookman Old Style';
+}
+
+#page {
+    width: 100%;
+    margin: 2px;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+
+}
+
+nav ol {
+    list-style-type:none;
+    padding:0;
+    margin:2px;
+    font-size:18px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+    margin-top: 0;
+}
+
+
+nav ol a {
+    display:block;
+    text-decoration:none;
+    color:#ffd700;
+    padding:0 5px;
+}
+
+
+nav ol > li {
+    float:left;
+    width:32.4%;
+    margin-left:1px;
+    background-color:#BFA49B;
+    height:2em;
+}
+
+
+nav ol > li:first-child {
+    margin-left:0;
+}
+
+
+nav ol > li:hover {
+    background-color:#996666;
+}
+
+
+      nav ol > li:hover > a {
+    color:black;
+      }
+
+
+      nav ol > li:hover > ul {
+    display:block;
+      }
+
+      nav ol > li > ul {
+     display:none;
+     list-style-type:none;
+     padding:0;
+     margin:1px;
+      }
+      nav ol > li > ul > li {
+     position:relative;
+     background-color:#EEE;
+      }
+
+      nav ol > li > ul > li > a {
+      border-top:1px solid #FFF;
+      }
+
+      nav ol > li > ul > li:hover {
+      background-color:#DDD;
+      }
+
+      nav ol > li > ul > li:hover > a {
+      color:#09C;
+      }
+
+             header {
+      margin-top:10px;
+      margin-right: 20px;
+      margin-left: 2px;
+          background-color:#3C405B;
+          color:#ffd700;
+          padding:30px;
+          font-size: 19.5px;
+          font-family: 'Times New Roman';
+          text-align: center;
+      }
+
+
+
+      hr {
+          width: 20%;
+          text-align: center;
+          border-top-style: solid;
+          border-left-style: hidden;
+          border-bottom-style: hidden;
+          border-right-style: hidden;
+      }
+
+
+
+      #prawa img {
+          float:right;
+          margin: 2px;
+      }
+
+
+
+      #prawa2 img {
+          float:right;
+          margin: 2px;
+      }
+
+
+
+
+
+      #lewa img {
+          float: left;
+          margin: 15px;
+      }
+
+article {
+    font-size: 18px;
+    font-family: 'Bookman Old Style';
+    padding: 1em;
+    text-align: left;
+}
+
+article h1 {
+    position: relative;
+    font-family: 'Alex Brush';
+    text-align: left;
+    font-size: 40px;
+}
+
+article h2 {
+    position: relative;
+    font-family: 'Alex Brush';
+    text-align: center;
+    font-size: 40px;
+}
+
+#galeria {
+    position: relative;
+    left: 230px;
+}
+
+article input {
+    position: relative;
+    left: 400px;
+}
+
+article select {
+     position: relative;
+    left: 400px;
+}
+
+article span {
+     position: relative;
+    left: 400px;
+}
+
+
+article h3 {
+        position: relative;
+        left: 355px;
+        font-size: 20px;
+        font-family: 'Arial Black';
+}
+
+article b {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Arial Black';
+}
+
+article p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Alegreya';
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #3C405B;
+    clear: left;
+    text-align: center;
+}
+
+div, id {
+    position: relative;
+    text-align: center;
+}
+
+
+
+    select {
+    background-color: #BFA49B;
+    border: solid;
+    border-color: #BFA49B;
+}
+
+    .dziedzicz {
+    background-color: #BFA49B;
+    border: solid;
+    border-color: #BFA49B;
+}
+
+    #ladowanie {
+    display: block;
+    position: relative;
+    top: 0;
+    _top: 50%; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('loading.gif') no-repeat center center;
+}
+
+    #zdjecie, #miniaturki {
+    width: 900px;
+    position: relative;
+}
+
+    #miniaturki img {
+    margin: 5px;
+    cursor: pointer;
+}
